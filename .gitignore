@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+.env
+venv/
+env/
+.pytest_cache/
+.vscode/
+.idea/
+mlruns/
+.system_generated/
+scratch/
+*.db

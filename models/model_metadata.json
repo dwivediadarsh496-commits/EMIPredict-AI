@@ -1,0 +1,110 @@
+{
+    "dataset_records": 404800,
+    "features_count": 33,
+    "categorical_features": [
+        "gender",
+        "marital_status",
+        "education",
+        "employment_type",
+        "company_type",
+        "house_type",
+        "existing_loans",
+        "emi_scenario"
+    ],
+    "numerical_features": [
+        "age",
+        "monthly_salary",
+        "years_of_employment",
+        "monthly_rent",
+        "family_size",
+        "dependents",
+        "school_fees",
+        "college_fees",
+        "travel_expenses",
+        "groceries_utilities",
+        "other_monthly_expenses",
+        "current_emi_amount",
+        "credit_score",
+        "bank_balance",
+        "emergency_fund",
+        "requested_amount",
+        "requested_tenure",
+        "total_monthly_expenses",
+        "total_financial_obligations",
+        "disposable_income",
+        "expense_to_income_ratio",
+        "debt_to_income_ratio",
+        "savings_ratio",
+        "emergency_fund_ratio",
+        "financial_stability_score"
+    ],
+    "feature_columns": [
+        "gender",
+        "marital_status",
+        "education",
+        "employment_type",
+        "company_type",
+        "house_type",
+        "existing_loans",
+        "emi_scenario",
+        "age",
+        "monthly_salary",
+        "years_of_employment",
+        "monthly_rent",
+        "family_size",
+        "dependents",
+        "school_fees",
+        "college_fees",
+        "travel_expenses",
+        "groceries_utilities",
+        "other_monthly_expenses",
+        "current_emi_amount",
+        "credit_score",
+        "bank_balance",
+        "emergency_fund",
+        "requested_amount",
+        "requested_tenure",
+        "total_monthly_expenses",
+        "total_financial_obligations",
+        "disposable_income",
+        "expense_to_income_ratio",
+        "debt_to_income_ratio",
+        "savings_ratio",
+        "emergency_fund_ratio",
+        "financial_stability_score"
+    ],
+    "classification": {
+        "best_model": "XGBoost",
+        "classes": [
+            "Eligible",
+            "High_Risk",
+            "Not_Eligible"
+        ],
+        "metrics": {
+            "Model": "XGBoost",
+            "Accuracy": 0.9591,
+            "Precision": 0.9534,
+            "Recall": 0.9591,
+            "F1": 0.9491,
+            "ROC-AUC": 0.9965
+        }
+    },
+    "regression": {
+        "best_model": "XGBoost Regressor",
+        "metrics": {
+            "Model": "XGBoost Regressor",
+            "MAE": 219.45,
+            "RMSE": 716.18,
+            "R2": 0.9916,
+            "MAPE": 0.0766
+        }
+    },
+    "scenarios": [
+        "Personal Loan EMI",
+        "E-commerce Shopping EMI",
+        "Education EMI",
+        "Vehicle EMI",
+        "Home Appliances EMI"
+    ],
+    "training_timestamp": "2026-09-04 23:00:59"
+}
